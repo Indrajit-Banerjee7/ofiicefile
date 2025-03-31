@@ -15,8 +15,8 @@ class TaskTrackingApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Officer Dashboard',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: AlertsScreen(),
-      //home: CreateIssueScreen(),
+      //home: AlertsScreen(),
+      home: CreateIssueScreen(),
       //home: OfficerDashboard(),
     );
   }
